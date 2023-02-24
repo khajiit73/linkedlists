@@ -9,7 +9,7 @@ int main()
 	cout << "list of numbers" << endl;
 	list.print();
 
-	int array_1[] = { 4, 16, 1, 55, 63 };
+	int array_1[] = { 4, 16, 1, 55, 81 };
 	list.push_front(array_1, 5);
 
 	cout << "list of numbers after adding an array of numbers in front" << endl;
